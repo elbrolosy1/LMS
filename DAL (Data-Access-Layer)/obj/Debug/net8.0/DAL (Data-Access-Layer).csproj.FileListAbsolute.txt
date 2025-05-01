@@ -1,0 +1,14 @@
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\bin\Debug\net8.0\DAL (Data-Access-Layer).deps.json
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\bin\Debug\net8.0\DAL (Data-Access-Layer).runtimeconfig.json
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\bin\Debug\net8.0\DAL (Data-Access-Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\bin\Debug\net8.0\DAL (Data-Access-Layer).pdb
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).csproj.AssemblyReference.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).GeneratedMSBuildEditorConfig.editorconfig
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).AssemblyInfoInputs.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).AssemblyInfo.cs
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).csproj.CoreCompileInputs.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\refint\DAL (Data-Access-Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).pdb
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).genruntimeconfig.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\ref\DAL (Data-Access-Layer).dll

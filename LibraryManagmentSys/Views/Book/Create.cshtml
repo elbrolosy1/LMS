@@ -1,0 +1,156 @@
+﻿@using BLL.Setting
+@model BLL__Buisness_Logic_Layer_.Dtos.BookDto.BookCreateDto
+
+@{
+    ViewData["Title"] = "Add Book";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Add New Book</h2>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label fw-bold"></label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ISBN" class="form-label fw-bold"></label>
+                    <input asp-for="ISBN" class="form-control" />
+                    <span asp-validation-for="ISBN" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CategoryId" class="form-label fw-bold">Category</label>
+                    <select asp-for="CategoryId" asp-items="Model.Categories" class="form-select">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="AuthorId" class="form-label fw-bold">Author</label>
+                    <select asp-for="AuthorId" asp-items="(SelectList)ViewBag.Authors" class="form-select">
+                        <option value="">-- Select Author --</option>
+                    </select>
+                    <span asp-validation-for="AuthorId" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Cover" class="form-label fw-bold"></label>
+                    <input asp-for="Cover" type="file" class="form-control" id="coverInput"
+                           data-rule-extension="@FileSetting.AllowedImages.Replace(".", "")"
+                           data-msg-extension="Allowed extensions: @FileSetting.AllowedImages"
+                           data-rule-filesize="@FileSetting.MaxImageSizeByte"
+                           data-msg-filesize="Maximum file size is 1MB"
+                           onchange="previewImage(this)" />
+                    <span asp-validation-for="Cover" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex mt-4 gap-2">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-plus-circle me-1"></i> Add Book
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left me-1"></i> Back to List
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <div class="image-preview-container bg-light p-2 rounded"
+                     style="width: 100%; height: 400px; border: 2px dashed #ccc;">
+                    <img id="coverPreview" class="img-fluid h-100 w-100"
+                         style="object-fit: contain; display: none;"
+                         alt="Cover Preview" />
+                </div>
+                <small class="text-muted mt-2">Image Preview</small>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function previewImage(input) {
+            const preview = document.getElementById('coverPreview');
+            const file = input.files[0];
+
+            if (file) {
+                // Validate file size
+                if (file.size > @FileSetting.MaxImageSizeByte) {
+                    alert('File size exceeds the maximum allowed size of 1MB');
+                    input.value = '';
+                    return;
+                }
+
+                // Validate file extension
+                const allowedExtensions = @Html.Raw(Json.Serialize(FileSetting.AllowedImages.Replace(".", "").Split(',')));
+                const fileExtension = file.name.split('.').pop().toLowerCase();
+
+                if (!allowedExtensions.includes(fileExtension)) {
+                    alert('Only ' + allowedExtensions.join(', ') + ' files are allowed');
+                    input.value = '';
+                    return;
+                }
+
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+
+                reader.readAsDataURL(file);
+            } else {
+                preview.style.display = 'none';
+            }
+        }
+
+        // Validate before form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const fileInput = document.getElementById('coverInput');
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                if (file.size > @FileSetting.MaxImageSizeByte) {
+                    e.preventDefault();
+                    alert('File size exceeds the maximum allowed size of 1MB');
+                    return false;
+                }
+            }
+            return true;
+        });
+    </script>
+
+    <style>
+        .image-preview-container {
+            transition: all 0.3s ease;
+        }
+
+            .image-preview-container:hover {
+                border-color: #999;
+            }
+
+        #coverPreview {
+            transition: transform 0.3s ease;
+        }
+
+        .form-control:focus, .form-select:focus {
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
+    </style>
+}

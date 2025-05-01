@@ -1,0 +1,161 @@
+﻿@using BLL.Setting
+@model BLL__Buisness_Logic_Layer_.Dtos.BookDto.BookUpdateDto
+
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Edit Book</h2>
+
+    <form asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data" class="bg-white p-4 rounded shadow-sm">
+        @Html.AntiForgeryToken()
+
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="ExistingCoverPath" />
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label fw-bold"></label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ISBN" class="form-label fw-bold"></label>
+                    <input asp-for="ISBN" class="form-control" />
+                    <span asp-validation-for="ISBN" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CategoryId" class="form-label fw-bold">Category</label>
+                    <select asp-for="CategoryId" asp-items="Model.Categories" class="form-select">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="AuthorId" class="form-label fw-bold">Author</label>
+                    <select asp-for="AuthorId" asp-items="(SelectList)ViewBag.Authors" class="form-select">
+                        <option value="">-- Select Author --</option>
+                    </select>
+                    <span asp-validation-for="AuthorId" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="NewCover" class="form-label fw-bold">Cover Image</label>
+                    <div class="input-group">
+                        <input type="file" class="form-control" asp-for="NewCover" id="coverInput"
+                               data-rule-extension="@FileSetting.AllowedImages.Replace(".",string.Empty)"
+                               data-msg-extension="Allowed formats: @FileSetting.AllowedImages"
+                               data-rule-filesize="@FileSetting.MaxImageSizeByte"
+                               data-msg-filesize="Max size: 1MB"
+                               onchange="previewImage(this)" />
+                    </div>
+                    <small class="form-text text-muted">Max 1MB (.jpg, .jpeg, .png)</small>
+                    <span asp-validation-for="NewCover" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex mt-4 gap-2">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-check-circle-fill me-1"></i> Update Book
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left me-1"></i> Cancel
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <div class="image-preview-container bg-light p-2 rounded"
+                     style="width: 100%; max-width: 500px; height: 500px; border: 2px dashed #ccc;">
+                    @if (!string.IsNullOrEmpty(Model.ExistingCoverPath))
+                    {
+                        <img src="@($"{'/'}{FileSetting.ImagesPath}/{Model.ExistingCoverPath}")"
+                             alt="Author Image Preview"
+                             class="img-fluid h-100 w-100"
+                             style="object-fit: contain;"
+                             onerror="this.src='https://via.placeholder.com/500x500?text=No+Author+Image'" />
+                    }
+                    else
+                    {
+                        <img src="https://via.placeholder.com/500x500?text=No+Author+Image"
+                             alt="Author Image Preview"
+                             class="img-fluid h-100 w-100"
+                             style="object-fit: contain;" />
+                    }
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // معاينة الصورة
+        function previewImage(input) {
+            const preview = document.getElementById('coverPreview');
+            const file = input.files[0];
+
+            if (file) {
+                // التحقق من حجم الملف
+                if (file.size > @FileSetting.MaxImageSizeByte) {
+                    alert('File size exceeds 1MB maximum limit');
+                    input.value = '';
+                    return;
+                }
+
+                // التحقق من امتداد الملف
+                const allowedExtensions = @Html.Raw(Json.Serialize(FileSetting.AllowedImages.Replace(".", "").Split(',')));
+                const fileExt = file.name.split('.').pop().toLowerCase();
+
+                if (!allowedExtensions.includes(fileExt)) {
+                    alert('Only ' + allowedExtensions.join(', ') + ' files are allowed');
+                    input.value = '';
+                    return;
+                }
+
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                    preview.style.transform = 'scale(1)';
+                }
+
+                reader.readAsDataURL(file);
+            }
+        }
+
+    </script>
+
+    <style>
+        .image-preview-container {
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        #coverPreview {
+            transition: transform 0.3s ease;
+            cursor: zoom-in;
+        }
+
+        .form-control:focus, .form-select:focus {
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+    </style>
+}

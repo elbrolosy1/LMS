@@ -1,0 +1,155 @@
+﻿@using BLL.Setting
+@model IEnumerable<BLL__Buisness_Logic_Layer_.Dtos.BookDto.BookReadDto>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+@if (User.IsInRole("Admin"))
+{
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="text-white">Books</h2>
+    <a class="btn btn-success btn-lg shadow" asp-action="Create">
+        <i class="bi bi-plus-circle-dotted me-1"></i>
+        Add Book
+    </a>
+</div>
+}
+@if (!Model.Any())
+{
+    <div class="alert alert-warning mt-5">
+        <h4 class="alert-heading">No books!</h4>
+        <p class="mb-0">No books were added yet.</p>
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="row justify-content-center g-4 mt-2">
+            @foreach (var book in Model)
+            {
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex">
+                    <div class="card book-card w-100 " style="height: 450px;"
+                         onclick="location.href='@Url.Action("Details", "Book", new { id = book.Id })'">
+
+                        <div class="card-img-container" style="height: 550px; overflow: hidden;">
+                            <img src="@($"{FileSetting.ImagesPath}/{book.Cover}")"
+                                 class="card-img-top h-150 w-150"
+                                 alt="@book.Title"
+                                 style="object-fit: cover; object-position: top;" />
+                        </div>
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-dark">@book.Title</h5>
+                            <span class="badge bg-primary">@book.CategoryName</span>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-around">
+                            <a asp-action="Edit" asp-route-id="@book.Id"
+                               class="btn btn-outline-info btn-sm"
+                               onclick="event.stopPropagation();">
+                                <i class="bi bi-pencil-fill me-1"></i>Edit
+                            </a>
+                            <a href="javascript:;"
+                               class="btn btn-outline-warning btn-sm js-delete"
+                               data-id="@book.Id"
+                               data-url="@Url.Action("Delete", "Book", new { id = book.Id })"
+                               onclick="event.stopPropagation();">
+                                <i class="bi bi-trash3 me-1"></i>Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+<style>
+    .book-card {
+        border: 2px solid #28a745;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.6s ease forwards;
+    }
+
+    .book-card:nth-child(1) { animation-delay: 0.1s; }
+    .book-card:nth-child(2) { animation-delay: 0.2s; }
+    .book-card:nth-child(3) { animation-delay: 0.3s; }
+    .book-card:nth-child(4) { animation-delay: 0.4s; }
+    .book-card:nth-child(5) { animation-delay: 0.5s; }
+
+    .book-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    @@keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function (event) {
+                event.stopPropagation();
+                var btn = $(this);
+
+                const swal = Swal.mixin({
+                    customClass: {
+                        confirmButton: 'btn btn-danger mx-2',
+                        cancelButton: 'btn btn-light'
+                    },
+                    buttonsStyling: false
+                });
+
+                swal.fire({
+                    title: 'Are you sure you want to delete this book?',
+                    text: "This action cannot be undone!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonText: 'Yes, delete it!',
+                    cancelButtonText: 'No, cancel!',
+                    reverseButtons: true
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: `/Book/Delete/${btn.data('id')}`,
+                            method: 'DELETE',
+                            success: function () {
+                                swal.fire(
+                                    'Deleted!',
+                                    'The book has been deleted.',
+                                    'success'
+                                );
+                                btn.parents('tr, .col-md-6').fadeOut();
+                            },
+                            error: function () {
+                                swal.fire(
+                                    'Oops...',
+                                    'Something went wrong.',
+                                    'error'
+                                );
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

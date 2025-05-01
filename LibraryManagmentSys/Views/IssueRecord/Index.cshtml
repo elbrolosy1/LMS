@@ -1,0 +1,208 @@
+﻿@model IEnumerable<BLL__Buisness_Logic_Layer_.Dtos.IssueRecordDto.ReadIssueRecord>
+
+@{
+    ViewData["Title"] = "Issue Records";
+}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-header bg-gradient-primary text-white rounded-top-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="h5 mb-0"><i class="fas fa-book-reader me-2"></i>Issue Records</h2>
+                        <a asp-action="Create" class="btn btn-light btn-sm">
+                            <i class="fas fa-plus-circle me-1"></i> New Issue
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-2">
+                    <div class="table-responsive">
+                        <table class="table align-items-center mb-0">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xs font-weight-bolder ps-4">User</th>
+                                    <th class="text-uppercase text-secondary text-xs font-weight-bolder">Issue Date</th>
+                                    <th class="text-uppercase text-secondary text-xs font-weight-bolder">Return Date</th>
+                                    <th class="text-uppercase text-secondary text-xs font-weight-bolder">Status</th>
+                                    <th class="text-uppercase text-secondary text-xs font-weight-bolder text-end pe-4">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="hover-effect">
+                                        <td class="ps-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon icon-shape bg-gradient-info shadow text-center rounded-circle me-3">
+                                                    <i class="fas fa-user text-white"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="mb-0 text-sm">@item.UserFullName</h6>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="text-sm font-weight-bold">@item.IssueDate.ToString("dd MMM yyyy")</span>
+                                        </td>
+                                        <td>
+                                            @if (item.ReturnDate.HasValue)
+                                            {
+                                                <span class="text-sm font-weight-bold">@item.ReturnDate.Value.ToString("dd MMM yyyy")</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-warning text-dark">Not Returned</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (item.ReturnDate.HasValue)
+                                            {
+                                                <span class="badge bg-success">Returned</span>
+                                            }
+                                            else if (item.ReturnDate < DateTime.Now)
+                                            {
+                                                <span class="badge bg-danger">Overdue</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-warning text-dark">Borrowed</span>
+                                            }
+                                        </td>
+                                        <td class="text-end pe-4">
+                                            <div class="btn-group" role="group">
+                                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm me-2">
+                                                    <i class="fas fa-eye me-1"></i> Details
+                                                </a>
+                                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm me-2">
+                                                    <i class="fas fa-edit me-1"></i> Edit
+                                                </a>
+                                                <a href="javascript:;"
+                                                   class="btn btn-outline-danger btn-sm js-delete"
+                                                   data-id="@item.Id"
+                                                   data-url="@Url.Action("Delete", "IssueRecord", new { id = item.Id })">
+                                                    <i class="fas fa-trash-alt me-1"></i> Delete
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .bg-gradient-info {
+            background: linear-gradient(135deg, #11cdef 0%, #1171ef 100%);
+        }
+
+        .bg-gray-100 {
+            background-color: #f8f9fa !important;
+        }
+
+        .hover-effect:hover {
+            background-color: rgba(0, 0, 0, 0.02);
+            transform: translateY(-1px);
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .icon-shape {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rounded-4 {
+            border-radius: 1rem !important;
+        }
+
+        .text-xs {
+            font-size: 0.75rem !important;
+        }
+
+        .text-sm {
+            font-size: 0.875rem !important;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function (event) {
+                event.stopPropagation();
+                var btn = $(this);
+
+                const swal = Swal.mixin({
+                    customClass: {
+                        confirmButton: 'btn bg-gradient-danger mx-2',
+                        cancelButton: 'btn btn-outline-secondary'
+                    },
+                    buttonsStyling: false
+                });
+
+                swal.fire({
+                    title: 'Delete Issue Record?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonText: 'Yes, delete it!',
+                    cancelButtonText: 'Cancel',
+                    reverseButtons: true,
+                    backdrop: `
+                                rgba(0,0,0,0.7)
+                                url("/images/trash-animation.gif")
+                                left top
+                                no-repeat
+                            `
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: `/IssueRecord/Delete/${btn.data('id')}`,
+                            method: 'DELETE',
+                            success: function () {
+                                swal.fire({
+                                    title: 'Deleted!',
+                                    text: 'Issue record has been deleted.',
+                                    icon: 'success',
+                                    timer: 1500,
+                                    showConfirmButton: false,
+                                    background: 'linear-gradient(310deg, #141727, #3A416F)',
+                                    color: 'white'
+                                });
+                                btn.parents('tr').fadeOut(500, function () {
+                                    $(this).remove();
+                                });
+                            },
+                            error: function () {
+                                swal.fire({
+                                    title: 'Error!',
+                                    text: 'Something went wrong.',
+                                    icon: 'error',
+                                    background: 'linear-gradient(310deg, #141727, #3A416F)',
+                                    color: 'white'
+                                });
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

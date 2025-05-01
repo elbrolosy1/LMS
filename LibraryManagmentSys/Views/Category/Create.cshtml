@@ -1,0 +1,121 @@
+﻿@model BLL__Buisness_Logic_Layer_.Dtos.CategoryDto.CategoryCreateDto
+
+@{
+    ViewData["Title"] = "Add New Category";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-gradient-primary text-white py-3 rounded-top-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="h4 mb-0"><i class="bi bi-tag-fill me-2"></i>Add New Category</h2>
+                        <a asp-action="Index" class="btn btn-sm btn-light">
+                            <i class="bi bi-arrow-left me-1"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <!-- Category Name -->
+                            <div class="col-md-12">
+                                <label asp-for="Name" class="form-label fw-bold">Category Name *</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text bg-light"><i class="bi bi-card-heading"></i></span>
+                                    <input asp-for="Name" class="form-control" required />
+                                    <div class="invalid-feedback">
+                                        Please provide a category name.
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Name" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Description -->
+                            <div class="col-md-12">
+                                <label asp-for="Description" class="form-label fw-bold">Description</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="bi bi-text-paragraph"></i></span>
+                                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                                </div>
+                                <span asp-validation-for="Description" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="col-12 mt-4">
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <button type="reset" class="btn btn-outline-secondary me-md-2">
+                                        <i class="bi bi-arrow-counterclockwise me-1"></i> Reset
+                                    </button>
+                                    <button type="submit" class="btn bg-gradient-success">
+                                        <i class="bi bi-save-fill me-1"></i> Save Category
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .bg-gradient-success {
+            background: linear-gradient(135deg, #2af598 0%, #009efd 100%);
+            border: none;
+            color: white;
+        }
+
+        .rounded-4 {
+            border-radius: 1rem !important;
+        }
+
+        .card {
+            border: none;
+            overflow: hidden;
+        }
+
+        .input-group-text {
+            min-width: 45px;
+            justify-content: center;
+        }
+
+        .form-control:focus, .form-select:focus {
+            box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+            border-color: #667eea;
+        }
+    </style>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Bootstrap validation
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+}

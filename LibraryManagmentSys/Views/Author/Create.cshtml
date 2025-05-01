@@ -1,0 +1,152 @@
+﻿@model BLL__Buisness_Logic_Layer_.Dtos.AuthorDto.CreateAuthorDto
+
+@{
+    ViewData["Title"] = "Create Author";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-gradient-primary text-white py-3 rounded-top-4">
+                    <h2 class="h4 mb-0"><i class="bi bi-person-plus me-2"></i>Add New Author</h2>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" class="needs-validation" novalidate>
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="row g-3">
+                            <!-- Author Name -->
+                            <div class="col-md-12">
+                                <label asp-for="Name" class="form-label fw-bold">Full Name *</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text bg-light"><i class="bi bi-person-badge"></i></span>
+                                    <input asp-for="Name" class="form-control" required />
+                                    <div class="invalid-feedback">
+                                        Please provide author's name.
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Name" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Description -->
+                            <div class="col-md-12">
+                                <label asp-for="Description" class="form-label fw-bold">Biography</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light align-items-start pt-2">
+                                        <i class="bi bi-text-paragraph"></i>
+                                    </span>
+                                    <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                                </div>
+                                <span asp-validation-for="Description" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Birth and Death Years -->
+                            <div class="col-md-6">
+                                <label asp-for="BornYear" class="form-label fw-bold">Birth Year</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="bi bi-calendar-plus"></i></span>
+                                    <input asp-for="BornYear" class="form-control" type="number" />
+                                </div>
+                                <span asp-validation-for="BornYear" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="DeathYear" class="form-label fw-bold">Death Year</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="bi bi-calendar-x"></i></span>
+                                    <input asp-for="DeathYear" class="form-control" type="number" />
+                                </div>
+                                <span asp-validation-for="DeathYear" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Gender -->
+                            <div class="col-md-12">
+                                <label asp-for="Gender" class="form-label fw-bold">Gender</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="bi bi-gender-ambiguous"></i></span>
+                                    <select asp-for="Gender" class="form-select">
+                                        <option value="">-- Select Gender --</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <span asp-validation-for="Gender" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Action Buttons -->
+                            <div class="col-12 mt-4">
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <a asp-action="Index" class="btn btn-outline-secondary me-md-2">
+                                        <i class="bi bi-x-circle me-1"></i> Cancel
+                                    </a>
+                                    <button type="submit" class="btn bg-gradient-success">
+                                        <i class="bi bi-save-fill me-1"></i> Create Author
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .bg-gradient-success {
+            background: linear-gradient(135deg, #2af598 0%, #009efd 100%);
+            border: none;
+            color: white;
+        }
+
+        .rounded-4 {
+            border-radius: 1rem !important;
+        }
+
+        .card {
+            border: none;
+            overflow: hidden;
+        }
+
+        .input-group-text {
+            min-width: 45px;
+            justify-content: center;
+        }
+
+        .form-control:focus, .form-select:focus {
+            box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+            border-color: #667eea;
+        }
+    </style>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Bootstrap validation
+        (function () {
+            'use strict'
+
+            var forms = document.querySelectorAll('.needs-validation')
+
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+}

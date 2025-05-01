@@ -1,0 +1,17 @@
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).csproj.AssemblyReference.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).GeneratedMSBuildEditorConfig.editorconfig
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).AssemblyInfoInputs.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).AssemblyInfo.cs
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).csproj.CoreCompileInputs.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\bin\Debug\net8.0\BLL (Buisness-Logic_Layer).deps.json
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\bin\Debug\net8.0\BLL (Buisness-Logic_Layer).runtimeconfig.json
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\bin\Debug\net8.0\BLL (Buisness-Logic_Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\bin\Debug\net8.0\BLL (Buisness-Logic_Layer).pdb
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\bin\Debug\net8.0\DAL (Data-Access-Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\bin\Debug\net8.0\DAL (Data-Access-Layer).pdb
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Bui.5B0305B9.Up2Date
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\refint\BLL (Buisness-Logic_Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).pdb
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).genruntimeconfig.cache
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\ref\BLL (Buisness-Logic_Layer).dll

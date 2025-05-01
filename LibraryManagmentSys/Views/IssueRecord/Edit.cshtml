@@ -1,0 +1,173 @@
+﻿@model BLL__Buisness_Logic_Layer_.Dtos.IssueRecordDto.UpdateIssueRecord
+
+@{
+    ViewData["Title"] = "Edit Issue Record";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-gradient-primary text-white py-3 rounded-top-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="h4 mb-0"><i class="fas fa-edit me-2"></i>Edit Issue Record</h2>
+                        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-sm btn-light">
+                            <i class="fas fa-eye me-1"></i> View Details
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Edit" method="post" class="needs-validation" novalidate>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="row g-3">
+                            <!-- Books Selection -->
+                            <div class="col-md-12">
+                                <label class="form-label fw-bold">Books *</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text bg-light"><i class="fas fa-book"></i></span>
+                                    <select asp-for="BookIds" asp-items="ViewBag.BookList" multiple
+                                            class="form-select select2-multiple" required>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select at least one book.
+                                    </div>
+                                </div>
+                                <span asp-validation-for="BookIds" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Issue Date -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">Issue Date *</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text bg-light"><i class="fas fa-calendar-alt"></i></span>
+                                    <input asp-for="IssueDate" class="form-control" type="date"
+                                           max="@DateTime.Now.ToString("yyyy-MM-dd")" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid issue date.
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IssueDate" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Return Date -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">Return Date</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="fas fa-calendar-check"></i></span>
+                                    <input asp-for="ReturnDate" class="form-control" type="date"
+                                           min="@DateTime.Now.ToString("yyyy-MM-dd")">
+                                </div>
+                                <span asp-validation-for="ReturnDate" class="text-danger small"></span>
+                            </div>
+
+                            <!-- Action Buttons -->
+                            <div class="col-12 mt-4">
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-secondary me-md-2">
+                                        <i class="fas fa-times me-1"></i> Cancel
+                                    </a>
+                                    <button type="submit" class="btn bg-gradient-success">
+                                        <i class="fas fa-save me-1"></i> Save Changes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                }
+
+        .bg-gradient-success {
+                background: linear-gradient(135deg, #2af598 0%, #009efd 100%);
+                    border: none;
+                    color: white;
+                }
+
+                .rounded-4 {
+                    border-radius: 1rem !important;
+                }
+
+                .select2-container--default .select2-selection--multiple {
+                    min-height: 38px;
+                    border: 1px solid #ced4da !important;
+                    padding: 5px;
+                }
+
+                .select2-selection__choice {
+                    background-color: #e9ecef !important;
+                    border: 1px solid #ced4da !important;
+                    border-radius: 4px !important;
+                    padding: 3px 8px !important;
+                    margin-top: 5px !important;
+                }
+
+                .select2-selection__choice__remove {
+                    color: #6c757d !important;
+                    margin-right: 5px !important;
+                }
+
+                .form-control:focus, .form-select:focus, .select2-container--focus .select2-selection {
+                    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25) !important;
+                    border-color: #667eea !important;
+                }
+    </style>
+}
+
+@section Scripts {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Select2
+            $('.select2-multiple').select2({
+                placeholder: "Select books (at least one)",
+                allowClear: true,
+                width: '100%'
+            });
+
+            // Bootstrap validation
+            (function () {
+                'use strict'
+                var forms = document.querySelectorAll('.needs-validation')
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })();
+
+            // Date validation
+            $('form').submit(function () {
+                const issueDate = new Date($('#IssueDate').val());
+                const returnDate = $('#ReturnDate').val() ? new Date($('#ReturnDate').val()) : null;
+
+                if (returnDate && returnDate < issueDate) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Invalid Date',
+                        text: 'Return date cannot be before issue date',
+                        confirmButtonColor: '#667eea'
+                    });
+                    return false;
+                }
+                return true;
+            });
+        });
+    </script>
+}
