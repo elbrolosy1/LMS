@@ -3,8 +3,164 @@
   "WorkspaceRootPath": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\issuerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\issuerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\issuerecorddto\\createissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\issuerecorddto\\createissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\issuerecordservice\\issuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\issuerecordservice\\issuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\issuerecordservice\\iissuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\issuerecordservice\\iissuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\issuerecorddto\\readissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\issuerecorddto\\readissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\bookservices\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\bookservices\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\appcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\appcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\bookservices\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\bookservices\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\authorservice\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\authorservice\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250425124912_genderenitityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250425124912_genderenitityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250424225644_editidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250424225644_editidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\emailverification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\emailverification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,100 +175,16 @@
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\roles\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\roles\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\issuerecord\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\issuerecord\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\issuerecordservice\\issuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\issuerecordservice\\issuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\issuerecordservice\\iissuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\issuerecordservice\\iissuerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\bookservices\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\bookservices\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\bookservices\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\bookservices\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\issuerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\issuerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,64 +195,20 @@
       "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\issuerecorddto\\updateissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\issuerecorddto\\readissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\issuerecorddto\\readissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\issuerecorddto\\createissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\issuerecorddto\\createissuerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\dtos\\accountmanager\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\dtos\\accountmanager\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\appcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\appcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\bll (buisness-logic_layer)\\services\\authorservice\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1F75F4-3F14-4C01-BA92-C01A58EB4C20}|BLL (Buisness-Logic_Layer)\\BLL (Buisness-Logic_Layer).csproj|solutionrelative:bll (buisness-logic_layer)\\services\\authorservice\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\librarymanagmentsys\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CC17724-4CAA-49D8-9A80-5F9E9636DD62}|LibraryManagmentSys\\LibraryManagmentSys.csproj|solutionrelative:librarymanagmentsys\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250424232916_editidentityprt4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,20 +219,12 @@
       "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250424231745_editidentityprt3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250424225644_editidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250424225644_editidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250424221333_addentityforappuserprt2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250424221333_addentityforappuserprt2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250424211804_addentityforappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250424211804_addentityforappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|d:\\last s last y\\software architecture and interoperability\\librarymanagmentsys\\dal (data-access-layer)\\migrations\\20250425124912_genderenitityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6765B1E-0D48-4F37-991D-C1034E6A1881}|DAL (Data-Access-Layer)\\DAL (Data-Access-Layer).csproj|solutionrelative:dal (data-access-layer)\\migrations\\20250425124912_genderenitityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -214,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,397 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateRole.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T02:01:22.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T21:23:24.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Book\\Index.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Book\\Index.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAswIsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T12:51:09.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AgIAAOMAAAAAAAAAAAAswAMBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T15:57:25.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAALoBAAAAAAAAAAAAAM0BAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T15:59:21.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAqwJMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T21:35:02.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAuwOQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T15:11:04.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T21:53:27.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Details.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Book\\Details.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Details.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Book\\Details.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T22:05:56.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddAdmin.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAowMsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T15:43:59.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T20:51:51.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAowKwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T14:00:26.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAowM8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T13:59:12.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAswP0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T13:59:43.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAowP0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T14:00:56.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Index.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Index.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Index.cshtml",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAswL8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T15:11:49.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IssueRecordService.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T22:18:54.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAqwLYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T21:42:25.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Create.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Create.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Create.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Create.cshtml",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAowJcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T21:37:15.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Details.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Details.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Details.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Details.cshtml",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAowAABAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T21:42:14.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IIssueRecordService.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T22:19:12.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Details.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Details.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Details.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Details.cshtml",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAowG4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T21:33:20.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowHgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T14:19:13.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:17:40.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BookServices.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAgwMEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:18:07.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:58:13.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Program.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Program.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:18:22.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IssueRecordController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:56:59.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:59:59.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UpdateIssueRecord.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T22:16:00.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "ReadIssueRecord.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\ReadIssueRecord.cs",
               "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\ReadIssueRecord.cs",
@@ -633,92 +263,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CreateIssueRecord.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IIssueRecordService.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IIssueRecordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T22:13:49.168Z",
+              "WhenOpened": "2025-04-30T22:19:12.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IssueRecordService.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\IssueRecordService\\IssueRecordService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvyUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:36:38.7Z"
+              "WhenOpened": "2025-04-30T22:18:54.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\AuthorController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:36:11.185Z"
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T14:00:26.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAIUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T20:28:36.513Z"
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T14:00:56.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "RoleDto.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T01:54:17.831Z"
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:51:09.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\BookController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\BookController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAlwEMAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Models\\AppUser.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Models\\AppUser.cs",
+              "RelativeToolTip": "DAL (Data-Access-Layer)\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T00:13:42.284Z"
+              "WhenOpened": "2025-04-24T23:09:06.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
-              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
-              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T20:38:19.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 0,
               "Title": "Register.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Register.cs",
               "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Register.cs",
@@ -726,71 +346,267 @@
               "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Register.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:09:13.662Z"
+              "WhenOpened": "2025-04-24T23:09:13.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "LibraryManagmentSys\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAADMAAAAAAAAAAAAUwE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-01T14:33:57.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Models\\AppUser.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Models\\AppUser.cs",
-              "RelativeToolTip": "DAL (Data-Access-Layer)\\Models\\AppUser.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAASwBsAAABFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IssueRecordController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\IssueRecordController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAI4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:09:06.96Z"
+              "WhenOpened": "2025-05-01T13:56:59.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 2,
+              "Title": "CreateIssueRecord.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\CreateIssueRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:13:49.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Create.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAIwI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T13:59:43.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\IssueRecord\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T13:59:12.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\AppContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\AppContext\\ApplicationDbContext.cs",
               "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\AppContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "DAL (Data-Access-Layer)\\AppContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAASwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T20:20:40.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\RolesController.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T01:51:49.586Z"
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T21:53:27.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Program.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Program.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:18:22.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwDkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:11:04.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Details.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwIIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T21:33:20.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Details.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Details.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Details.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJ0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T21:42:14.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Edit.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T21:42:25.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Index.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:11:49.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:13:42.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookServices.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\BookServices.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:18:07.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Details.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Book\\Details.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Book\\Details.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Book\\Details.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T22:05:56.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T20:51:51.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\AddAdmin.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T15:43:59.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Author\\Create.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Author\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Author\\Create.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T21:37:15.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\BookServices\\IBookService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:17:40.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "IAuthorService.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\AuthorService\\IAuthorService.cs",
               "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Services\\AuthorService\\IAuthorService.cs",
               "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Services\\AuthorService\\IAuthorService.cs",
               "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Services\\AuthorService\\IAuthorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T15:28:01.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T21:23:24.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "20250425124912_GenderEnitityAdded.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250425124912_GenderEnitityAdded.cs",
               "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250425124912_GenderEnitityAdded.cs",
@@ -802,31 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "20250424232916_EditIdentityprt4.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
-              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
-              "RelativeToolTip": "DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:29:17.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "20250424231745_EditIdentityprt3.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
-              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
-              "RelativeToolTip": "DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:17:45.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 30,
               "Title": "20250424225644_EditIdentity.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424225644_EditIdentity.cs",
               "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424225644_EditIdentity.cs",
@@ -838,19 +630,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "20250424221333_AddEntityForAppUserprt2.cs",
-              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
-              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
-              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
-              "RelativeToolTip": "DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T22:13:33.274Z"
+              "DocumentIndex": 31,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T12:54:15.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 32,
+              "Title": "EmailVerification.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\EmailVerification.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Account\\EmailVerification.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Account\\EmailVerification.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Account\\EmailVerification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T13:02:29.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\appsettings.json",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\appsettings.json",
+              "RelativeToolTip": "LibraryManagmentSys\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T13:04:33.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:28:36.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SmtpEmailSender.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\SmtpEmailSender.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\SmtpEmailSender.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\SmtpEmailSender.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\SmtpEmailSender.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:47:58.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\IEmailSender.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\IEmailSender.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:48:12.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -862,7 +714,211 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:36:11.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:38:19.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAqwJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T21:35:02.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAALoBAAAAAAAAAAAAAM0BAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T15:59:21.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAswAMBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T15:57:25.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Roles\\CreateRole.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:01:22.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagmentSys\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T14:19:13.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:58:13.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:59:59.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateIssueRecord.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\IssueRecordDto\\UpdateIssueRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:16:00.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:36:38.7Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 49,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
+              "RelativeDocumentMoniker": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
+              "RelativeToolTip": "BLL (Buisness-Logic_Layer)\\Dtos\\AccountManager\\RoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T01:54:17.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LibraryManagmentSys\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-01T14:33:57.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSys\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\LibraryManagmentSys\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "LibraryManagmentSys\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T01:51:49.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250424232916_EditIdentityprt4.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
+              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
+              "RelativeToolTip": "DAL (Data-Access-Layer)\\Migrations\\20250424232916_EditIdentityprt4.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:29:17.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250424231745_EditIdentityprt3.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
+              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
+              "RelativeToolTip": "DAL (Data-Access-Layer)\\Migrations\\20250424231745_EditIdentityprt3.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:17:45.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250424221333_AddEntityForAppUserprt2.cs",
+              "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
+              "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
+              "ToolTip": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
+              "RelativeToolTip": "DAL (Data-Access-Layer)\\Migrations\\20250424221333_AddEntityForAppUserprt2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:13:33.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "20250424211804_AddEntityForAppUser.cs",
               "DocumentMoniker": "D:\\Last S Last Y\\Software Architecture and Interoperability\\LibraryManagmentSys\\DAL (Data-Access-Layer)\\Migrations\\20250424211804_AddEntityForAppUser.cs",
               "RelativeDocumentMoniker": "DAL (Data-Access-Layer)\\Migrations\\20250424211804_AddEntityForAppUser.cs",

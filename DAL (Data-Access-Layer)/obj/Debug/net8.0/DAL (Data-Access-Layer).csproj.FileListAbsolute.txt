@@ -12,3 +12,4 @@ D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\
 D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).pdb
 D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).genruntimeconfig.cache
 D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\ref\DAL (Data-Access-Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\DAL (Data-Access-Layer)\obj\Debug\net8.0\DAL (Data-Access-Layer).sourcelink.json

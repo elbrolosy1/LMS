@@ -57,6 +57,7 @@ namespace DAL__Data_Access_Layer_.AppContext
                 .HasForeignKey(ir => ir.BookId)
                 .OnDelete(DeleteBehavior.Restrict); // Prevent cascade delete
 
+            //Data seeding for Author
             modelBuilder.Entity<Category>().HasData(
             new Category { Id = 1, Name = "Cyper" },
             new Category { Id = 2, Name = "Ai" },

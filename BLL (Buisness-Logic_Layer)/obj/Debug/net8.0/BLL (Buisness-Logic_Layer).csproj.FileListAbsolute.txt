@@ -15,3 +15,4 @@ D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\
 D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).pdb
 D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).genruntimeconfig.cache
 D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\ref\BLL (Buisness-Logic_Layer).dll
+D:\Last S Last Y\Software Architecture and Interoperability\LibraryManagmentSys\BLL (Buisness-Logic_Layer)\obj\Debug\net8.0\BLL (Buisness-Logic_Layer).sourcelink.json

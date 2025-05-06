@@ -3,7 +3,8 @@
 @{
     ViewData["Title"] = "Edit Author";
 }
-
+@if (User.IsInRole("Admin"))
+{
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -75,7 +76,6 @@
                                         <option value="">-- Select Gender --</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
-                                        <option value="Other">Other</option>
                                     </select>
                                 </div>
                                 <span asp-validation-for="Gender" class="text-danger small"></span>
@@ -106,7 +106,7 @@
         </div>
     </div>
 </div>
-
+}
 @section Styles {
     <style>
         .bg-gradient-primary {

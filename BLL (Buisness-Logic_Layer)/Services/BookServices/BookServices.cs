@@ -60,6 +60,7 @@ namespace BLL__Buisness_Logic_Layer_.Services.BookServices
 
             return book == null ? null : new BookReadDto
             {
+                Id = book.Id,
                 Title = book.Title,
                 ISBN = book.ISBN,
                 Cover = book.Cover,

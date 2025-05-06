@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Email Verification";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-info text-center">
+        <h2 class="mb-3">📧 Check Your Email!</h2>
+        <p>We've sent a confirmation link to your email address. Please check your inbox and click the link to verify your account.</p>
+        <p>Didn't receive the email? <a href="@Url.Action("Register", "Account")" class="btn btn-secondary">Try Again</a></p>
+    </div>
+</div>

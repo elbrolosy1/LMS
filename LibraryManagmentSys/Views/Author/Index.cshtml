@@ -28,7 +28,10 @@
                                     <th class="text-uppercase text-secondary text-xs font-weight-bolder">Birth Year</th>
                                     <th class="text-uppercase text-secondary text-xs font-weight-bolder">Death Year</th>
                                     <th class="text-uppercase text-secondary text-xs font-weight-bolder">Gender</th>
+                                    @if (User.IsInRole("Admin"))
+                                    {           
                                     <th class="text-uppercase text-secondary text-xs font-weight-bolder text-end pe-4">Actions</th>
+                                    }
                                 </tr>
                             </thead>
                             <tbody>
@@ -52,8 +55,14 @@
                                             <span class="text-danger text-sm font-weight-bold">@item.DeathYear</span>
                                         </td>
                                         <td>
-                                            <span class="badge bg-info text-dark">@item.Gender</span>
+                                            <span class="badge gender-badge @(item.Gender?.ToLower() == "male" ? "gender-male" :
+                                                     item.Gender?.ToLower() == "female" ? "gender-female" :
+                                                     item.Gender?.ToLower() == "other" ? "gender-other" : "gender-unknown")">
+                                                @item.Gender
+                                            </span>
                                         </td>
+                                        @if (User.IsInRole("Admin"))
+                                        {
                                         <td class="text-end pe-4">
                                             <div class="btn-group" role="group">
                                                 <a class="btn btn-outline-info btn-sm me-2" asp-action="Edit" asp-route-id="@item.Id" onclick="event.stopPropagation();">
@@ -71,6 +80,7 @@
                                                 </a>
                                             </div>
                                         </td>
+                                        }
                                     </tr>
                                 }
                             </tbody>
@@ -84,6 +94,32 @@
 
 @section Styles {
     <style>
+        .gender-badge {
+            color: white !important;
+            font-weight: bold;
+            text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+            min-width: 70px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .gender-male {
+            background-color: #3498db; /* أزرق واضح */
+        }
+
+        .gender-female {
+            background-color: #e91e63; /* وردي زاهي */
+        }
+
+        .gender-other {
+            background-color: #9b59b6; /* بنفسجي */
+        }
+
+        .gender-unknown {
+            background-color: #95a5a6; /* رمادي فاتح */
+        }
+
+
         .bg-gradient-primary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }

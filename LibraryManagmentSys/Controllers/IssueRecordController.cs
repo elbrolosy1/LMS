@@ -127,32 +127,44 @@ public class IssueRecordController : Controller
     }
 
     // Helper to load dropdowns
-    private async Task LoadDropDowns()
-    {
-        var books = await (await _bookRepo.GetAllAsync()).ToListAsync();
-        var users = await _userManager.Users.ToListAsync();
+    //private async Task LoadDropDowns()
+    //{
+    //    var books = await (await _bookRepo.GetAllAsync()).ToListAsync();
+    //    var users = await _userManager.Users.ToListAsync();
 
-        ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
-        ViewBag.Users = new SelectList(
-            users.Select(u => new {
-                u.Id,
-                FullName = $"{u.FirstName} {u.LastName}"
-            }),
-            "Id", "FullName"
-        );
-    }
-    private async Task LoadDropDowns(List<int> selectedBookIds = null)
+    //    ViewBag.Books = new SelectList(await _bookRepo.GetAllAsync(), "Id", "Title");
+    //    ViewBag.Users = new SelectList(
+    //        users.Select(u => new {
+    //            u.Id,
+    //            FullName = $"{u.FirstName} {u.LastName}"
+    //        }),
+    //        "Id", "FullName"
+    //    );
+    //}
+    private async Task LoadDropDowns(List<int>? selectedBookIds = null)
     {
-        var books = await _bookRepo.GetAllAsync();
-        var users = await _userManager.Users.ToListAsync();
+        var books = await (await _bookRepo.GetAllAsync())
+            .AsNoTracking()
+            .ToListAsync();
+
+        var users = await _userManager.Users
+            .Select(u => new {
+                u.Id,
+                u.FirstName,
+                u.LastName
+            })
+            .AsNoTracking()
+            .ToListAsync();
 
         ViewBag.BookList = new MultiSelectList(books, "Id", "Title", selectedBookIds);
         ViewBag.UserList = new SelectList(
             users.Select(u => new {
-                u.Id,
+                Id = u.Id,
                 FullName = $"{u.FirstName} {u.LastName}"
             }),
             "Id", "FullName"
         );
     }
+
+
 }
